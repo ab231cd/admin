@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<title>华兰血液综合管理平台</title>
+	<meta charset="UTF-8">
+	<base href="../"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="images/logo.ico" rel="shortcut icon"/>
+	<link rel="stylesheet" href="dist/css/index.css">
+	<link rel="stylesheet" href="dist/css/test/table.css">
+</head>
+<body class="cat__config--vertical cat__menu-left--colorful cat__menu-left--visible ">
+<nav class="cat__menu-left">
+	<div class="cat__menu-left__lock cat__menu-left__action--menu-toggle ">
+		<div class="cat__menu-left__pin-button">
+			<div><!-- --></div>
+		</div>
+	</div>
+	<div class="cat__menu-left__logo">
+		<a href="dashboards-alpha.html">
+			<img src="images/logoboya.png"/>
+		</a>
+	</div>
+	<div class="cat__menu-left__inner">
+		<ul class="cat__menu-left__list cat__menu-left__list--root" id="xyptNav">
+			<li class="cat__menu-left__item cat__menu-left--colorful--warning">
+				<a href="javascript:;" data-url="main">
+					<span class="cat__menu-left__icon icmn-home"></span>
+					<span class="badge badge-primary pull-right">快捷操作</span>
+					用户中心
+				</a>
+			</li>
+			<li class="cat__menu-left__divider"></li>
+			
+			
+			<!-- 遍历顶层菜单一级子菜单 -->
+			
+			<li class="cat__menu-left__item  cat__menu-left__submenu cat__menu-left--colorful--info ">
+				<a href="javascript:;" title="业务中心" data-url=""
+				   data-id="632a9d40d65240bdbf72eb013aa0c011">
+					<span class="cat__menu-left__icon icmn-download"></span>
+					测试页面
+				</a>
+				<!-- 判断一级子菜单下是否有子菜单 -->
+				
+				<ul class="cat__menu-left__list" style="display: none;">
+					<!-- 遍历二级子菜单 -->
+					
+					<li class="cat__menu-left__item ">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="测试表格"
+						   data-url="html/test/table.html"
+						   data-id="6b1234d701264c6c97415c6e8981690d">
+							表格测试页面
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="许可证及电子印章"
+						   data-url="" data-id="1961a8f45b4f4c999e036579e83793d2">
+							许可证及电子印章
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="年度任务管理"
+						   data-url="" data-id="cd251946baec11e795b80862662ae102">
+							年度任务管理
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="月度任务管理"
+						   data-url="" data-id="ed108a19baec11e795b80862662ae102">
+							月度任务管理
+						</a>
+					</li>
+				
+				</ul>
+			
+			</li>
+			
+			<li class="cat__menu-left__item  cat__menu-left__submenu cat__menu-left--colorful--info">
+				<a href="javascript:;" title="异常管理" data-url=""
+				   data-id="da36d6aa0df246fcb0dfc34c6dcc0569">
+					<span class="cat__menu-left__icon icmn-download"></span>
+					异常管理
+				</a>
+				<!-- 判断一级子菜单下是否有子菜单 -->
+				
+				<ul class="cat__menu-left__list" style="display: none;">
+					<!-- 遍历二级子菜单 -->
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="身份证相同"
+						   data-url="" data-id="33c599aabaf611e795b80862662ae102">
+							身份证相同
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="短信发送记录"
+						   data-url="" data-id="33cc6c4bbaf611e795b80862662ae102">
+							短信发送记录
+						</a>
+					</li>
+				
+				</ul>
+			
+			</li>
+			
+			<li class="cat__menu-left__item  cat__menu-left__submenu cat__menu-left--colorful--info">
+				<a href="javascript:;" title="数据中心" data-url=""
+				   data-id="df572ca01aa64fad8b12b3e95d232627">
+					<span class="cat__menu-left__icon icmn-download"></span>
+					数据中心
+				</a>
+				<!-- 判断一级子菜单下是否有子菜单 -->
+				
+				<ul class="cat__menu-left__list" style="display: none;">
+					<!-- 遍历二级子菜单 -->
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆员信息"
+						   data-url="plasma/provider/providerInfo" data-id="26ebb199baf411e795b80862662ae102">
+							浆员信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="采浆流程"
+						   data-url="plasma/bs/process/plasmaProcessInfo" data-id="bcb5cd59fe324188b773e6e3c9b06fba">
+							采浆流程
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="登记信息"
+						   data-url="plasma/bs/register/register" data-id="e945af194a054359b1016bcb42da2423">
+							登记信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="体检信息"
+						   data-url="plasma/bs/physical/physical" data-id="ed19a093042142a08053eed2dba9b708">
+							体检信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="采样信息"
+						   data-url="plasma/bs/sampling/sampling" data-id="904e155fa66b4820a839901c09401fdc">
+							采样信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="检验信息"
+						   data-url="plasma/bs/assay/assay" data-id="104c93d22a5b410d97eef44e82fa682e">
+							检验信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="采浆信息"
+						   data-url="plasma/bs/collecting/collecting" data-id="b05e305828df490b88b82415944b9653">
+							采浆信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="费用信息"
+						   data-url="plasma/bs/expense/expense" data-id="9717b22345bd4904b8185a278a43b142">
+							费用信息
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="血浆入库"
+						   data-url="plasma/repository/plasmaStockIn/plasmaStockIn"
+						   data-id="69e36294bcd0493ea438611922833ecd">
+							血浆入库
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="血浆出库"
+						   data-url="plasma/repository/plasmaStockOut/plasmaStockOut"
+						   data-id="a1fe3e38fa0c47c8a7913dcbbc026f28">
+							血浆出库
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="血浆库存"
+						   data-url="plasma/repository/plasmaStock/plasmaStock"
+						   data-id="c82a3bd30006452e80932dd32e7531c0">
+							血浆库存
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="血浆报废"
+						   data-url="plasma/repository/plasmaScrap/plasmaScrap"
+						   data-id="85e2265da1ca43468eeadcd419c001ce">
+							血浆报废
+						</a>
+					</li>
+				
+				</ul>
+			
+			</li>
+			
+			<li class="cat__menu-left__item  cat__menu-left__submenu cat__menu-left--colorful--info">
+				<a href="javascript:;" title="数据分析" data-url=""
+				   data-id="b5a073d6f8b54fb98454df4c9061191a">
+					<span class="cat__menu-left__icon icmn-download"></span>
+					数据分析
+				</a>
+				<!-- 判断一级子菜单下是否有子菜单 -->
+				
+				<ul class="cat__menu-left__list" style="display: none;">
+					<!-- 遍历二级子菜单 -->
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆站数据分析"
+						   data-url="plasma/certificate/certificationCardInfoSearch"
+						   data-id="5d2005f528ef44cc85961f5224052a07">
+							浆站数据分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆员档案分析"
+						   data-url="plasma/certificate/certificationCardInfoRevoke"
+						   data-id="75eda1cc40684116b735c39f81b46d21">
+							浆员档案分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="献浆费用报告"
+						   data-url="plasma/certificate/certificationCardInfoIssuance"
+						   data-id="ba0a44641b9742c1ad3993ec9452c90c">
+							献浆费用报告
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆员发展分析"
+						   data-url="" data-id="f13c3f06baf811e795b80862662ae102">
+							浆员发展分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="献浆情况分析"
+						   data-url="" data-id="f14228f5baf811e795b80862662ae102">
+							献浆情况分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="免疫效价分析"
+						   data-url="" data-id="f1471fd1baf811e795b80862662ae102">
+							免疫效价分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="拒绝情况分析"
+						   data-url="" data-id="f14c2c10baf811e795b80862662ae102">
+							拒绝情况分析
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆站地图"
+						   data-url="" data-id="f151ab8fbaf811e795b80862662ae102">
+							浆站地图
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="浆站分布地图"
+						   data-url="" data-id="f156373ebaf811e795b80862662ae102">
+							浆站分布地图
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="未通过化验浆员分布图"
+						   data-url="" data-id="f15a2914baf811e795b80862662ae102">
+							未通过化验浆员分布图
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="TEST"
+						   data-url="plasma/certificate/test" data-id="2575817eba2b11e795b80862662ae102">
+							TEST
+						</a>
+					</li>
+				
+				</ul>
+			
+			</li>
+			
+			<li class="cat__menu-left__item  cat__menu-left__submenu cat__menu-left--colorful--info">
+				<a href="javascript:;" title="基础信息管理" data-url=""
+				   data-id="9c6c9193faa04dc394779e6d7bdfda03">
+					<span class="cat__menu-left__icon icmn-download"></span>
+					基础信息管理
+				</a>
+				<!-- 判断一级子菜单下是否有子菜单 -->
+				
+				<ul class="cat__menu-left__list" style="display: none;">
+					<!-- 遍历二级子菜单 -->
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="员工管理"
+						   data-url="" data-id="68df8de40de0499294f30db5f721b255">
+							员工管理
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="角色管理"
+						   data-url="" data-id="e59248af94934984af70bb3d5bd6a28b">
+							角色管理
+						</a>
+					</li>
+					
+					<li class="cat__menu-left__item">
+						<a href="javascript:;" lass="nav-link nav-toggle" title="系统配置"
+						   data-url="" data-id="dcc8730ac06d4de19e25b5e6981f434f">
+							系统配置
+						</a>
+					</li>
+				
+				</ul>
+			
+			</li>
+		
+		
+		</ul>
+	</div>
+</nav>
+
+<div class="cat__top-bar">
+	<!-- left aligned items -->
+	<div class="cat__top-bar__left">
+		<div class="cat__top-bar__logo"><a href="http://www.china-boya.com" target="_blank"><img
+				src="images/logoboya.png"></a></div>
+		<div class="cat__top-bar__item hidden-sm-down">
+			<a href="javascript:;">
+				<i class="icmn-newspaper mr-2"></i>
+				<span class="hidden-lg-down"><strong>献浆证管理</strong></span>
+			</a>
+		</div>
+		<div class="cat__top-bar__item hidden-sm-down">
+			<a href="javascript:;">
+				<i class="icmn-file-zip mr-2"></i>
+				<span class="hidden-lg-down"><strong>许可证及电子印章</strong></span>
+			</a>
+		</div>
+		<div class="cat__top-bar__item hidden-sm-down">
+			<a href="javascript:;">
+				<i class="icmn-user mr-2"></i>
+				<span class="hidden-lg-down"><strong>浆员信息</strong></span>
+			</a>
+		</div>
+		<div class="cat__top-bar__item hidden-sm-down">
+			<a href="javascript:;">
+				<i class="icmn-lab mr-2"></i>
+				<span class="hidden-lg-down"><strong>检验信息</strong></span>
+			</a>
+		</div>
+		<div class="cat__top-bar__item hidden-sm-down">
+			<a href="javascript:;">
+				<i class="icmn-home mr-2"></i>
+				<span class="hidden-lg-down"><strong>用户中心</strong></span>
+			</a>
+		</div>
+	</div>
+	<!-- right aligned items -->
+	<div class="cat__top-bar__right">
+		<div class="cat__top-bar__item hidden-sm-down">
+			<div class="dropdown">
+				<a href="javascript:;"  data-toggle="dropdown"
+				   aria-expanded="false"> <i class="menu-notification-icon icmn-home"></i> 返回用户中心</a>
+				<a id="full_screen_btn" href="javascript:;" data-toggle="dropdown" aria-expanded="true">
+					<i class="menu-notification-icon icmn-enlarge" style="margin-left:20px;"></i>
+				</a>
+			</div>
+		</div>
+		<div class="cat__top-bar__item">
+			<div class="dropdown cat__top-bar__avatar-dropdown">
+				<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						<span class="cat__top-bar__avatar" href="javascript:;">
+						<img src="images/avatars/1.jpg"></span></a>
+				<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="" role="menu">
+					<a class="dropdown-item" href="javascript:;" ><i
+							class="dropdown-icon icmn-user"></i> 我的信息</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="/bsLoginout.html"><i class="dropdown-icon icmn-exit"></i> 退出系统</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cat__content">
+	<div id="main">
+		index
+	</div>
+	<!--<div class="cat__footer jytc-bottom">-->
+	<!--<div class="row">-->
+	<!--<div class="col-md-6">-->
+	<!--<a href="tel:0851-88888888" class="btn btn-default btn-rounded"> <i class="dropdown-icon icmn-headphones"></i> 技术支持 客服热线 </a>-->
+	<!--</div>-->
+	<!--<div class="col-md-6">-->
+	<!--<div class="cat__footer__company" style="margin-left:20px;margin-right:25%;">-->
+	<!--<img class="cat__footer__company-logo" src="/images/logo.png" target="_blank" title="精英天成"-->
+	<!--style="width:auto; height:32px; left:-20px;">-->
+	<!--<span> © 2016 <a href="http://www.gzjyqy.com/" target="_blank">精英天成</a> <br> 提供云计算服务</span>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<a href="javascript:;" class="cat__core__scroll-top"  onclick="$('body, html').animate({'scrollTop': 0}, 500);"><i class="icmn-arrow-up"></i></a>-->
+	<!--</div>-->
+</div>
+
+
+<script src="dist/js/index.js"></script>
+
+</body>
+</html>
